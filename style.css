@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.mainCard{
+    position: relative;
+    width: 850px;
+    height: 450px;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+.quoteCard{
+    position: absolute; 
+    bottom: 0; 
+    width: 57%;
+    height: 87.5%;
+    margin-bottom: 25px;
+    margin-left: 25px; 
+    background-color: white;
+    border-radius: 20px;
+    margin-right: auto;
+    opacity: 0.75;
+    z-index: 1;
+}
+.quotesDate{
+    width: 90%;
+    margin: auto;
+    height: 220px;
+    margin-top: 25px;
+}
+#quotes{
+    text-align: center;
+    line-height: 99%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    z-index: -1;
+    text-align: justify;
+}
+#author{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+#newBtn{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+.line{
+    border-top: 1px solid rgb(209, 209, 209);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.sharText{
+    margin-top: 10px;
+   text-align: center;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.shareBtn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
